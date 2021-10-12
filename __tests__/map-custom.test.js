@@ -60,7 +60,7 @@ test.each([
     expect(result).toEqual(expect.arrayContaining(output));
     expect(resultMap).toEqual(expect.arrayContaining(output));
     // test array original should not change
-    expect(arr).toEqual(expect.arrayContaining(arr));
+    expect(arr).toEqual(expect.arrayContaining([1, 2, 3]));
 });
 
 test ('test with one argument is value', () => {
@@ -74,7 +74,7 @@ test ('test with one argument is value', () => {
     expect(result).toEqual(expect.arrayContaining([2, 4, 6]));
     expect(resultMap).toEqual(expect.arrayContaining([2, 4, 6]));
     // test array original should not change
-    expect(arr).toEqual(expect.arrayContaining(arr));
+    expect(arr).toEqual(expect.arrayContaining([1, 2, 3]));
 });
 
 test('test with two arguments is value and index', () => {
@@ -88,6 +88,6 @@ test('test with two arguments is value and index', () => {
     expect(result).toEqual(expect.arrayContaining([1, 4, 7]));
     expect(resultMap).toEqual(expect.arrayContaining([1, 4, 7]));
     // test array original should not change
-    expect(arr).toEqual(expect.arrayContaining(arr));
+    expect(arr).toEqual(expect.arrayContaining([1, 2, 3]));
 })
 
