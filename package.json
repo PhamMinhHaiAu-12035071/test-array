@@ -1,0 +1,24 @@
+{
+  "name": "test-array",
+  "version": "1.0.0",
+  "description": "This is repo test method support for array",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^27.2.5"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhamMinhHaiAu-12035071/test-array.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PhamMinhHaiAu-12035071/test-array/issues"
+  },
+  "homepage": "https://github.com/PhamMinhHaiAu-12035071/test-array#readme"
+}
