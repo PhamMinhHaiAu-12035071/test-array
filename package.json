@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "This is repo test method support for array",
   "main": "index.js",
-  "dependencies": {},
   "devDependencies": {
     "jest": "^27.2.5"
   },
