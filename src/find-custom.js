@@ -7,3 +7,4 @@ const findCustom = (func, arr) => {
 };
 
 module.exports = findCustom;
+//do something
