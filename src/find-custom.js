@@ -4,7 +4,6 @@ const findCustom = (func, arr) => {
         return (arr.length-1);
     }
     else return findCustom(func,arr); //testchua lam xong
-    // again do something
 };
 
 module.exports = findCustom;
